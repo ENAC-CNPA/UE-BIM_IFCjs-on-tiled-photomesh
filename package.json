@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "ue-bim_ifcjs-on-tiled-photomesh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.9.1"
+  },
+  "dependencies": {
+    "3d-tiles-renderer": "^0.3.16",
+    "three": "^0.135.0",
+    "web-ifc-three": "^0.0.121",
+    "web-ifc-viewer": "^1.0.213"
+  }
+}

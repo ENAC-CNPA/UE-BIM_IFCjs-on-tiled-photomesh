@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../../../favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/epfl/favicon.ico" />
+    <title>UE BIM 2023</title>
+  </head>
+  <body>
+    <header id="index-header">
+      <div class="logos">
+        <a href="https://www.epfl.ch/fr/" target="blank">
+          <img
+            id="logo-epfl"
+            src="https://www.epfl.ch/wp/5.5/wp-content/themes/wp-theme-2018/assets/svg/epfl-logo.svg?refresh=now"
+            alt="Logo EPFL, École polytechnique fédérale de Lausanne"
+          />
+        </a>
+        <a href="https://www.epfl.ch/schools/enac/fr/" target="blank">
+          <img
+            class="logo-unites"
+            src="./epfl/EPFL_Unités_ENAC.png"
+            alt="Logo ENAC, Faculté de l’environnement naturel, architectural et construit"
+          />
+        </a>
+        <a href="https://www.epfl.ch/labs/cnpa/fr/" target="blank">
+          <img
+            class="logo-unites"
+            src="./epfl/EPFL_Unités_CNPA.png"
+            alt="Logo CNPA, Laboratoire des cultures numériques du projet architectural"
+          />
+        </a>
+      </div>
+      <h1 class="header-titles">UE BIM 2023</h1>
+    </header>
+    <div id="drop-instruction">
+      <p>
+        Glisser-déposer votre maquette numérique IFC n'importe où sur la fenêtre
+        du navigateur pour la charger dans la scène 3D.
+      </p>
+    </div>
+    <div id ="spinner-container">
+      <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div id="viewer-container"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
